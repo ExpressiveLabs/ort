@@ -58,7 +58,7 @@ cann = []
 qnn = []
 
 [dependencies]
-ndarray = "0.15"
+ndarray = "0.17.1"
 thiserror = "1.0"
 libloading = { version = "0.7", optional = true }
 
