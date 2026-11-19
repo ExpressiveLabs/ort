@@ -498,6 +498,7 @@ fn prepare_libort_dir() -> (PathBuf, bool) {
 			(Default::default(), false)
 		}
 		"system" => system_strategy(),
+		#[cfg(feature = "compile")]
 		"compile" => {
 			use std::process::Command;
 
